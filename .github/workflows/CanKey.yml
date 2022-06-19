@@ -1,9 +1,7 @@
 name: CanKey
 
 on:
-  repository_dispatch:
-  watch:
-    types: [started]
+  workflow_dispatch:
 
 jobs:
   build:
